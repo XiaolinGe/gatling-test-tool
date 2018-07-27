@@ -91,10 +91,8 @@
                 <version>${gatling-plugin.version}</version>
                 <configuration>
                     <!-- 测试脚本 -->
-                    <!--
-                                      <simulationClass>com.anoyi.test.ApiGatlingSimulationTest</simulationClass>
- -->
-                                                          <simulationClass>com.anoyi.test.CollinsonRateTest</simulationClass>
+                    <!-- <simulationClass>com.anoyi.test.ApiGatlingSimulationTest</simulationClass> -->
+                    <simulationClass>com.anoyi.test.ApiTest</simulationClass>
 
                     <!-- 结果输出地址 -->
                     <resultsFolder>/Users/xiaolinge/Desktop/gatling</resultsFolder>

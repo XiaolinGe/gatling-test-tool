@@ -9,7 +9,7 @@ import io.gatling.http.Predef._
 
 import scala.concurrent.duration.{Duration, FiniteDuration}
 
-class CollinsonRateTest extends Simulation {
+class ApiTest extends Simulation {
 
   val scn: ScenarioBuilder = scenario("Rate")
     .repeat(5, "n") {
