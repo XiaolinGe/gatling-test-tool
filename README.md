@@ -1,13 +1,4 @@
-### 使用文档
-
-- [性能测试之 Gatling](https://www.jianshu.com/p/cdd9d29256c0)
-
-### 相关资料
-
-- [Gatling官网](https://gatling.io/)
-
-
-#########
+# 应用
 
 ## Restart Docker
 
@@ -25,7 +16,6 @@ docker rm fd3c0c622af6
 ### 启动数据库
 
 ```aidl
-
   docker run -d \
   --name postgres \
   -e POSTGRES_DB=gatling \
@@ -35,3 +25,10 @@ docker rm fd3c0c622af6
   postgres
   
 ```
+
+### 相关资料
+
+- [性能测试之 Gatling](https://www.jianshu.com/p/cdd9d29256c0)
+
+
+- [Gatling官网](https://gatling.io/)
